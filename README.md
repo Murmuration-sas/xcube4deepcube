@@ -7,3 +7,5 @@ Specifically:
 - <code>Datasat_raw</code>: Datasats directly downloaded from the different satellite data supply sources (formats: Tiff, net, grib, etc)
 - <code>Datasat_nc_intermediate</code>: netcdf4 files generated through the relevant shell codes.
 - <code>Datasat_nc_final</code>: From <code>Datasat_nc_intermediate</code> se han seleccionado los .nc que se eplean en generar los .zarr
+
+In the .sh installation file is the installation of binaries on a linux/unix machine in order to be able to generate the net
